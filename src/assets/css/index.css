@@ -1,0 +1,88 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */ 
+.mint-header {
+  background-color: #3F475A;
+}
+.mint-button:not(.is-disabled):active::after {
+  opacity: .2 /* .6 */;
+}
+.mint-button--primary {
+  background-color: #3F475A;
+}
+.mint-button--primary.is-plain {
+  border: 1px solid #3F475A;
+  color: #3F475A;
+}
+.mint-badge.is-primary {
+  background-color: #3F475A;
+}
+.mint-switch-input:checked + .mint-switch-core {
+  border-color: #3F475A;
+  background-color: #3F475A;
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid #3F475A;
+  color: #3F475A;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+  color: #3F475A;
+}
+.mint-searchbar-cancel {
+  color: #3F475A;
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+  background-color: #3F475A;
+  border-color: #3F475A;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #3F475A;
+  border-color: #3F475A;
+}
+.mt-range-progress {
+  background-color: #3F475A;
+}
+.mt-progress-progress {
+  background-color: #3F475A;
+}
+.mint-msgbox-confirm {
+  color: #3F475A;
+}
+.mint-msgbox-confirm:active {
+  color: #3F475A;
+}
+.mint-datetime-action {
+  color: #3F475A;
+}
+.mint-radio-core::after {
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #fff;
+  border-color: #3F475A;
+  color: black;
+}
+.mint-radio-input:checked + .mint-radio-core::after {
+  background-color: #3F475A;
+}
+.mint-cell {
+  min-height: 11.5vw;
+  background: rgba(0,0,0,0);
+}
+.mint-cell-wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), color-stop(50%, #d9d9d9), color-stop(50%, transparent));
+  background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+  background-size: 120% 1px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  font-size: 3.5vw;
+}
+.mint-cell:last-child {
+  background: rgba(0,0,0,0);
+  background-size: 100% 1px;
+}
+.mint-cell:last-child .mint-cell-wrapper {
+  background: rgba(0,0,0,0);
+  background-size: 100% 1px;
+}
