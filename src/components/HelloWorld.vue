@@ -98,15 +98,15 @@ export default {
     jump (index) {
       if (this.data.schoolName) {
         // if (index === 0) this.$router.push({name: 'Tuition'})
-        if (index === 0) this.$router.push({name: 'Error'})
-        if (index === 1) this.$router.push({name: 'Error'})
+        if (index === 0) this.$router.push({name: 'CardAdd'})
+        if (index === 1) this.$router.push({name: 'CardAdd'})
         // if (index === 1) this.$router.push({name: 'PayFee'})
         if (index === 2) this.$router.push({name: 'ReportLoss'})
         if (index === 3) this.$router.push({name: 'Charge'})
         if (index === 4) this.$router.push({name: 'Unbind'})
-        if (index === 5) this.$router.push({name: 'Error'})
+        if (index === 5) this.$router.push({name: 'CardAdd'})
         // if (index === 6) this.$router.push({name: 'OrderInquiry'})
-        if (index === 6) this.$router.push({name: 'Error'})
+        if (index === 6) this.$router.push({name: 'CardAdd'})
         if (index === 7) this.$router.push({name: 'PeopleInfo', query: {id: this.data.id}})
       } else {
         this.jumpTo = false
